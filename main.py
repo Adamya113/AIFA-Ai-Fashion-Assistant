@@ -8,4 +8,4 @@ app.mount("/img", StaticFiles(directory="img"), name="img")
 
 @app.get("/")
 def index() -> FileResponse:
-    return FileResponse(path="/app/static/index.html", media_type="text/html")
+    return FileResponse(path="static/index.html", media_type="text/html")
