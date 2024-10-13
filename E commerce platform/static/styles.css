@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+/* footer link */
+.col-6>a {
+    display: block;
+}
+
+/* shop now btn */
+
+#shop-btn{
+    background-color:#ff8100;
+}
+
+/* width of every cards on product section */
+#card-width {
+    width: 18rem;
+}
+
+
+/* categories nav link */
+
+.nav-item .nav-link {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768.98px) {
+    #input-form {
+        width: 35%;
+    }
+}
+
+
+
+/* responsive blog post. modify the width of image in each breakpoints */
+
+@media (min-width: 768px) {
+    .bg {
+        width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg {
+        width: 230px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        width: 250px;
+    }
+}
+
+@media (max-width: 578px) {
+    .bg {
+        width: 100%;
+    }
+}
+
+/* Hide scrollbars for all iframes */
+iframe {
+    overflow: hidden;
+    /* Optional: Ensure iframe dimensions are fixed */
+    width: 100%;
+    height: 600px;
+    border: none; /* Remove border if needed */
+}
+
+/* You may need to adjust iframe styles based on specific IDs or classes */
+#gradio-chatbot {
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    border: none; /* Remove border if needed */
+}
