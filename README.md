@@ -18,4 +18,4 @@ A Gen AI-powered platform that understands and interprets detailed user requests
 
 
 
-Credits: The app utilises code from KingNish, huggingface.
+Acknowledgement: KingNish@Huggingface, huggingface spaces.
